@@ -1,0 +1,129 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(img/Untitled-1.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 100vh;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    background-color: #101418;
+}
+
+header {
+    margin-bottom: 80px;
+    margin-top: 80px;
+    padding: 0;
+    display: flex;
+    transition: 0.5s;
+}
+
+header:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav {
+    margin-top: 6px;
+    margin-bottom: 8px;
+    margin-left: 30px;
+}
+
+nav ul {
+    display: contents;
+    align-content: center;
+}
+
+.menus {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menus:hover {
+    color: rgb(90, 100, 194);
+}
+
+nav ul li {
+    display: inline;
+    font-size: 20px;
+    margin: 20px;
+    padding: 6px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+nav ul li:hover {
+    color: rgb(90, 100, 194);
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+flex: 1;
+}
+
+footer {
+    display: flex;
+    background-color: #101418;
+    color: #fff;
+    padding: 30px;
+    font-size: 15px;
+    flex-direction: row;
+    margin-bottom: 0;
+}
+
+.paraFoot {
+    margin: 50px;
+    margin-bottom: 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#infoBox {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #101418;
+    border-radius: 10px;
+    color: white;
+    opacity: 0.9;
+    
+}
+
+#infoBox, h1{
+    font-size: 40px;
+    list-style: none;
+}
+
+#infoBox > ul{
+    font-size: 30px;
+    color: white;
+    list-style: none;
+}
+
+#infoBox, ul li{
+    font-size: 15px;
+    color: white;
+
+}
+
+.walkers {
+    color: red;
+    font-size: 20px;
+    list-style: none;
+}
+
